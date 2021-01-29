@@ -3,16 +3,17 @@ This is the first lab issued in ECSE3038 on January 29, 2021
 
 ## How the VersionControl.java class works
 It has 3 private methods:
-1. hello(); 
->- Parameter type :- void 
+1. **hello();**
+- Parameter type :- void 
 - Return type :- void
  
-2. validatePassword();
->Parameter type :- String
->Return type :- boolean
-3. sumUpToN(); 
->Parameter type :- int
->Return type :- int
+2. **validatePassword();**
+- Parameter type :- String
+- Return type :- boolean
+
+3. **sumUpToN();** 
+- Parameter type :- int
+- Return type :- int
 
 There is also a main() method that outputs to the console in eclipse.
 Prior to running the class, the user should code the parameters. 

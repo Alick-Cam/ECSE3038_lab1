@@ -4,10 +4,9 @@ public class VersionControl {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		VersionControl obj = new VersionControl();
-		obj.hello();
-		System.out.println(obj.validatePassword("GreetingsFe11owKids"));
-
-
+		obj.hello(); // Objective 1
+		System.out.println(obj.validatePassword("GreetingsFe11owKids")); // Objective 2
+		System.out.println(obj.sumUpToN(-117)); // Objective 3
 	}
 
 	private void hello() {
@@ -16,7 +15,7 @@ public class VersionControl {
 	
 	private boolean validatePassword(String password) {
 		boolean valid = false;
-		int checks = 0; //increment when an alphanumeric character is met
+		int checks = 0; // increment when an alphanumeric character is met
 		int numChecks = 0; // increment when a number character is met
 		
 		// check if length is greater than or equal to 8
@@ -43,5 +42,17 @@ public class VersionControl {
 		}
 		
 		return valid;
+	}
+
+	private int sumUpToN(int N) {
+		int sum = 0;
+		if (N > 1) {
+			for (int i = 1; i <= N ; i++) {
+				sum += i;
+			}
+			return sum;
+		}
+		else
+		return -1;
 	}
 }
